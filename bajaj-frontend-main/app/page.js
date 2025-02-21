@@ -19,7 +19,7 @@ function App() {
       // Validate JSON format first
 
       const data = await axios.post(
-        "http://localhost:3001/bfhl",
+        "https://bajaj-backend-td1q.onrender.com/bfhl",
         JSON.parse(jsonInput)
       );
       console.log(data);
